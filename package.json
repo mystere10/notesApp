@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mystere10/notesApp/issues"
   },
-  "homepage": "https://github.com/mystere10/notesApp#readme"
+  "homepage": "https://github.com/mystere10/notesApp#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
