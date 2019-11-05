@@ -1,0 +1,20 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "Note application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystere10/notesApp.git"
+  },
+  "author": "Nkunzi Innocent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mystere10/notesApp/issues"
+  },
+  "homepage": "https://github.com/mystere10/notesApp#readme"
+}
