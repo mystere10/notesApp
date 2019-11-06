@@ -1,7 +1,9 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 const app = express()
 
+app.use(cors())
 app.use(bodyParser.json())
 
 let notes = [
@@ -91,7 +93,16 @@ app.post('/notes', (req, res) => {
     })
 })
 
+const unKnownRoutes = (req, res) => {
+  res.status(404).json({
+    message: 'Unknown endpoint'
+  })
+}
 
-const port = 3001
-app.listen(port)
-console.log(`server started on port ${port}`)
+app.use(unKnownRoutes)
+
+const port = process.env.PORT || 3001
+app.listen(port, () => {
+  console.log(`server started on port ${port}`)
+})
+
