@@ -1,8 +1,10 @@
 const express = require('express')
+const path = require('path')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express()
 
+app.use(express.static(path.join(__dirname, './build')));
 app.use(cors())
 app.use(bodyParser.json())
 
@@ -26,10 +28,6 @@ let notes = [
     important: true
   }
 ]
-
-app.get('/', (req, res) => {
-  res.send('Welcome to the homepage')
-})
 
 app.get('/notes', (req, res) => {
   res.json(notes)
@@ -87,9 +85,11 @@ app.post('/notes', (req, res) => {
     id: generateId()
   }
   notes = notes.concat(newNote)
+
+  const lastCreated = notes[notes.length - 1]
   res.status(201).json({
       message: 'Note created',
-      notes
+      lastCreated
     })
 })
 
