@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mystere10/notesApp/static/css/main.34de6062.chunk.css",
+    "main.js": "/mystere10/notesApp/static/js/main.8b181405.chunk.js",
+    "main.js.map": "/mystere10/notesApp/static/js/main.8b181405.chunk.js.map",
+    "runtime-main.js": "/mystere10/notesApp/static/js/runtime-main.ab4f300b.js",
+    "runtime-main.js.map": "/mystere10/notesApp/static/js/runtime-main.ab4f300b.js.map",
+    "static/js/2.c58a2ecc.chunk.js": "/mystere10/notesApp/static/js/2.c58a2ecc.chunk.js",
+    "static/js/2.c58a2ecc.chunk.js.map": "/mystere10/notesApp/static/js/2.c58a2ecc.chunk.js.map",
+    "index.html": "/mystere10/notesApp/index.html",
+    "precache-manifest.e079e7a7569c34b9e2903649e0e3ab80.js": "/mystere10/notesApp/precache-manifest.e079e7a7569c34b9e2903649e0e3ab80.js",
+    "service-worker.js": "/mystere10/notesApp/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/mystere10/notesApp/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab4f300b.js",
+    "static/js/2.c58a2ecc.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.8b181405.chunk.js"
+  ]
+}
